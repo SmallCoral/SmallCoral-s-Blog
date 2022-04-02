@@ -1,0 +1,509 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SmallCoral的水族馆</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!--Favicon-->
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper default-version">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <div class="page-background">
+        <div class="image-1"><img src="images/icons/shape/icon-1.png" alt=""></div>
+        <div class="image-7"><img src="images/icons/shape/icon-7.png" alt=""></div>
+        <canvas id="canvas"></canvas>
+    </div>
+    
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+        <div class="container">
+            <!--Nav Outer-->
+            <div class="nav-outer clearfix">
+                <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                <!-- Main Menu -->
+                <nav class="main-menu">
+                    <div class="navbar-header">
+                        <!-- Toggle Button -->      
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    
+                    <div class="navbar-collapse collapse scroll-nav clearfix">
+                        <ul class="navigation clearfix">
+                            
+                            <li class="current"><a href="#home">主页</a></li>
+                            <li><a href="#about">关于</a></li>
+                            <li><a href="#resume">收藏</a></li>
+                            <li><a href="#services">兴趣</a></li>
+                            <li><a href="#work">整活</a></li>
+                            <li><a href="#blog">暴论</a></li>
+                            <li><a href="#contact">联系</a></li>
+
+                         </ul>
+                    </div>
+                </nav>
+                <!-- Main Menu End-->                        
+            </div>
+            <!--Nav Outer End-->            
+        </div>
+    </div>
+ 	
+    <div class="card-outer">
+        <div class="scroll-box">
+            <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+                <div class="card-wrapper">
+                    <div class="author-info" style="background-image:url(images/background/3.jpg)">
+                        <div class="image"><img src="images/resource/user.png" alt=""></div>
+                        <div class="author">
+                            <h3>SmallCoral</h3>
+                            <div class="designation">
+                                嗨，这里是小珊瑚
+                                <div class="typing-title">
+                                    <p>一名 <strong>学生</strong></p>
+                                    <p>一名 <strong>Minecraft红石玩家</strong></p>
+                                    <p>一名 <strong>开发者</strong></p>
+                                    <p>一名 <strong>天体主义者</strong></p>
+                                </div>
+                                <span class="typed-title"></span>
+                            </div>
+                        </div>
+                        <div class="link-btn">
+                            <a href="https://space.bilibili.com/517434964" class="theme-btn btn-style-one">关注我的bilibili</a>
+                        </div>
+                        <ul class="social-icon-two">
+                            <li><a href="https://twitter.com/SmallCoral233"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCPA_-SGHKCJfDUDxGQP7WRQ"><span class="fa fa-youtube-play"></span></a></li>
+                            <li><a href="https://github.com/SmallCoral"><span class="fa fa-github"></span></a></li>
+                            <li><a href="https://weibo.com/u/7293597439"><span class="fa fa-weibo"></span></a></li>
+                            <li><a href="https://steamcommunity.com/id/smallcoral/"><span class="fa fa-steam"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="card-inner-box">
+                        <header class="header wow fadeInLeft" data-wow-duration="1.5s">
+                            <ul class="main-menu">
+                                <li class="active home"><a class="logo" href="#home"><img src="images/logo.png" alt=""></a></li>
+                                <li><a href="#about"><i class="flaticon-social"></i>关于</a></li>
+                                <li><a href="#resume"><i class="flaticon-curriculum"></i>收藏</a></li>
+                                <li><a href="#services"><i class="flaticon-web-design"></i>兴趣</a></li>
+                                <li><a href="#work"><i class="flaticon-tools"></i>整活</a></li>
+                                <li><a href="#blog"><i class="flaticon-blog"></i>暴论</a></li>
+                                <li><a href="#contact"><i class="flaticon-send-mail"></i>联系</a></li>
+                            </ul>
+                        </header>
+
+                        <!-- card item -->
+                        <div class="card-home card-item active" id="home" style="background-image:url(images/background/1.jpg)">
+
+                            <div class="card-inner wow fadeInUp" data-wow-duration="2s">
+                                <div class="image"><img src="images/resource/user.png" alt=""></div>
+                                <div class="author">
+                                    <h3>SmallCoral</h3>
+                                    <div class="designation">
+                                        嗨，这里是小珊瑚
+                                        <div class="typing-title">
+                                            <p>一名 <strong>学生</strong></p>
+                                            <p>一名 <strong>Minecraft红石玩家</strong></p>
+                                            <p>一名 <strong>开发者</strong></p>
+                                            <p>一名 <strong>天体主义者</strong></p>
+                                        </div>
+                                        <span class="typed-title"></span>
+                                    </div>
+                                </div>
+                                <div class="text">欢迎您来到我的个人博客awa</div>
+                                <div class="link-btn">
+                                    <a href="https://space.bilibili.com/517434964" class="theme-btn btn-style-one">关注我的bilibili</a>
+                                    <a href="https://afdian.net/@smallcoral" class="theme-btn btn-style-two">关注我的爱发电</a>
+                                    <a href="https://pay-smallcoral.vercel.app/" class="theme-btn btn-style-two">赞助我</a>
+                                </div>
+                                <ul class="social-icon-two">
+                                    <li><a href="https://twitter.com/SmallCoral233"><span class="fa fa-twitter"></span></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCPA_-SGHKCJfDUDxGQP7WRQ"><span class="fa fa-youtube-play"></span></a></li>
+                                    <li><a href="https://github.com/SmallCoral"><span class="fa fa-github"></span></a></li>
+                                    <li><a href="https://weibo.com/u/7293597439"><span class="fa fa-weibo"></span></a></li>
+                                    <li><a href="https://steamcommunity.com/id/smallcoral/"><span class="fa fa-steam"></span></a></li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <!-- end item -->
+
+                        <!-- card item -->
+                        <div class="card-about card-item" id="about" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">与我相关</h4>
+                                <div class="text">Hello World!</div>
+                                <div class="info-list">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul class="list-style-one">
+                                                <li><strong>昵称:</strong>  SmallCoral</li>
+                                                <li><strong>性别:</strong>  男</li>
+                                                <li><strong>地址:</strong>  湖北宜昌</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul class="list-style-one">
+                                                <li><strong>电子邮箱:</strong>  Shan_Hu_MC@outlook.com</li>
+                                                <li><strong>职业:</strong>  学生</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>                                    
+                                <h4 class="title">主要身份</h4>
+                                <div class="row">
+                                    <!-- 关于 Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer">
+                                                <input type="text" class="dial" data-fgColor="#9147ff" data-bgColor="#f5f5f5" data-width="90" data-height="90" data-linecap="normal"  value="75">
+                                                <div class="inner-text count-box"><span class="count-text" data-stop="75" data-speed="2000"></span>%</div>
+                                            </div>
+                                            <h3>学生</h3>
+                                        </div>
+                                    </div>
+
+                                    <!-- 关于 Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer">
+                                                <input type="text" class="dial" data-fgColor="#ff5e7e" data-bgColor="#f5f5f5" data-width="90" data-height="90" data-linecap="normal"  value="75">
+                                                <div class="inner-text count-box"><span class="count-text" data-stop="75" data-speed="2000"></span>%</div>
+                                            </div>
+                                            <h3>红石玩家</h3>
+                                        </div>
+                                    </div>
+
+                                    <!-- 关于 Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer">
+                                                <input type="text" class="dial" data-fgColor="#ffc713" data-bgColor="#f5f5f5" data-width="90" data-height="90" data-linecap="normal"  value="75">
+                                                <div class="inner-text count-box"><span class="count-text" data-stop="75" data-speed="2000"></span>%</div>
+                                            </div>
+                                            <h3>开发者 </h3>
+                                        </div>
+                                    </div>
+
+                                    <!-- 关于 Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer">
+                                                <input type="text" class="dial" data-fgColor="#51dbc3" data-bgColor="#f5f5f5" data-width="90" data-height="90" data-linecap="normal"  value="75">
+                                                <div class="inner-text count-box"><span class="count-text" data-stop="75" data-speed="2000"></span>%</div>
+                                            </div>
+                                            <h3>天体主义者 </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                        
+                            </div>
+                        </div>
+                        <!-- end item -->
+
+                        <!-- card item -->
+                        <div class="card-resume card-item" id="resume" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <div class="row clearfix">
+                                    <!--Column-->
+                                    <div class="timeline-column col-md-6 col-sm-12 col-xs-12">
+                                        <div class="inner">
+                                            <div class="col-header"><div class="icon-box"><div class="icon-inner"><div class="icon"><span class="flaticon-book"></span></div></div></div> <h2>网站</h2></div>
+                                            
+                                            <!--Timeline Block-->
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>Minecraft Wiki</h4>
+                                                    <div class="date"><span>https://minecraft.fandom.com/</div>
+                                                    <div class="text">Minecraft 官方Wiki站，拥有最完整详细的游戏内容介绍</div>
+                                                </div>
+                                            </div>
+
+                                            <!--Timeline Block-->
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>Bilibili中文镜像</h4>
+                                                    <div class="date"><span>https://wiki.biligame.com/mc/</div>
+                                                    <div class="text">Minecraft Wiki的Bilibili中文镜像 <br> <br> <br></div>
+                                                </div>
+                                            </div>
+
+                                            <!--Timeline Block-->
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>XPlus 2.0整合包</h4>
+                                                    <div class="date"><span>https://www.mcbbs.net/thread-936198-1-1.html</div>
+                                                    <div class="text">一个优质的Minecraft生电整合包 </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <!--Column-->
+                                    <div class="timeline-column col-md-6 col-sm-12 col-xs-12">
+                                        <div class="inner">
+                                            <div class="col-header"><div class="icon-box"><div class="icon-inner"><div class="icon"><span class="flaticon-case"></span></div></div></div> <h2>文件</h2></div>
+                                            
+                                            <!--Timeline Block-->
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>2b2t建筑存档-女武神空间站</h4>
+                                                    <div class="date"><span>https://wwm.lanzouw.com/ <br>iaJL1z9930b </div>
+                                                    <div class="text">2b2t服务器一位建筑大佬的匠心之作 </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>威风堂堂 初音未来</h4>
+                                                    <div class="date"><span>https://wwm.lanzouw.com/ <br>ieZCTw8uxbe <br>密码:83ua</div>
+                                                    <div class="text">超燃，超劲爆，超带劲的音乐（确信 </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>Leaf - mopemope</h4>
+                                                    <div class="date"><span>https://wwm.lanzouw.com/ <br>iiHRKz98iej <br>密码:9q0m</div>
+                                                    <div class="text">这是我目前最喜欢的一首音乐</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-services card-item" id="services" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <div class="row">
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-pen-tool"></span></div>
+                                            <h4><a href="">学习</a></h4>
+                                            <div class="text">好好学习 </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-folder"></span></div>
+                                            <h4><a href="">代码</a></h4>
+                                            <div class="text">万物皆可全自动！ </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-computer"></span></div>
+                                            <h4><a href="">计算机</a></h4>
+                                            <div class="text">用科学的方法再创造一个虚拟世界 </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-layers-1"></span></div>
+                                            <h4><a href="">天体主义</a></h4>
+                                            <div class="text">一种与自然相和谐的生活方式 </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-web-design"></span></div>
+                                            <h4><a href="">算法</a></h4>
+                                            <div class="text">程序设计的灵魂 </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-smartphone"></span></div>
+                                            <h4><a href="">通信技术</a></h4>
+                                            <div class="text">把全世界连起来！ </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-projects card-item" id="work" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <div class="row">
+                                    <div class="projects-block col-md-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/1.jpg" alt="image">
+                                                <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/1.jpg">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="#"></a></h3>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-md-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/2.jpg" alt="image">
+                                                <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/2.jpg">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="#"></a></h3>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-md-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/3.jpg" alt="image">
+                                                <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/3.jpg">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="#"></a></h3>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-md-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/4.jpg" alt="image">
+                                                <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/4.jpg">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="#"></a></h3>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-blog card-item" id="blog" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <div class="news-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="images/resource/blog-1.jpg" alt="">
+                                            <div class="overlay">
+                                                <a class="link-btn" href="blog-single.html">
+                                                    <i class="fa fa-link"></i>
+                                                </a>                                
+                                            </div>
+                                        </div>
+                                        <div class="lower-content">
+                                            <h4><a href="blog-single.html">[Software Not Service]</a></h4>
+                                            <div class="post-meta"></span>软件不是服务</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-contact card-item" id="contact" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <div class="row clearfix">
+                                    <div class="col-md-6">
+                                        <ul class="list-style-two">
+                                            <li><span class="icon flaticon-smartphone"></span>QQ邮箱 <br>2153958001@qq.com</li>
+                                            <li><span class="icon flaticon-computer"></span>Gmail邮箱 <br> 200503hys@gmail.com </li>
+                                            <li><span class="icon flaticon-note-1"></span>Outlook邮箱 <br>Shan_Hu_MC@outlook.com</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="map-section">
+                                            <div class="home-google-map">
+                                                <div 
+                                                    class="google-map" 
+                                                    id="contact-google-map" 
+                                                    data-map-lat="40.700843" 
+                                                    data-map-lng="-74.004012" 
+                                                    data-icon-path="images/icons/map-marker.png"
+                                                    data-map-title="Chester"
+                                                    data-map-zoom="11" >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+            
+    </div>
+
+</div>
+<!--End pagewrapper-->
+
+
+<script src="js/jquery.js"></script> 
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/element-in-view.js"></script>
+<script src="js/knob.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/mousemoveparallax.js"></script>
+<script src="js/pagenav.js"></script>
+<script src="js/jquery-type.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/particle-alone.js"></script>
+<script src="js/script.js"></script>
+
+<!--Google Map APi Key-->
+<script src="http://ditu.google.cn/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
+<script src="js/gmaps.js"></script>
+<script src="js/map-script.js"></script>
+<!--End Google Map APi-->
+
+</body>
+</html>
